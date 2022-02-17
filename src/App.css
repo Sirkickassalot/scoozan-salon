@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: fixed;
+}
+
+.specialty-info {
+  width: 100%;
+  background-color: plum;
+  margin-top: 100px;
+
+}
+
+.bridal-party-info {
+  height:220px;
+  background-image: url('https://parade.com/wp-content/uploads/2020/12/jeremy-wong-weddings-K41SGnGKxVk-unsplash.jpg');
+  background-size: 100%;
+  background-blend-mode: lighten;
+
+}
+
+.about-me {
+  height:220px;
+  background-color: red;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSig9q5p0ptlG5vrF84qclCw_J0x07-c0qm3Q&usqp=CAU');
+  background-size: 100%;
+}
+
+.services {
+  height:220px;
+  background-color: black;
+}
+.book-now-button {
+  height:75px;
+  width: 100%;
+  background-color: #AEC6CF;
+  align-self: flex-end;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom {
+  height: 75px; 
+  background-color: yellow;
 }
